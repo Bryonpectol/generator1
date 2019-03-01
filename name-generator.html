@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Name Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="namegenerator.css"
+    />
+  </head>
+  <body class="background">
+    <div class="nav-div">
+      <nav class="nav">
+        <h1>Name/Number Generator</h1>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="image-generator.html">Image Generator</a>
+        <a class="nav-link" href="name-generator.html">Name Generator</a>
+      </nav>
+    </div>
+
+    <div class="button-div">
+      <h2>Single Name Generator</h2>
+      <h3>For gamertag</h3>
+      <button class="button" Onclick="newNameSingle()">Generate!</button>
+    </div>
+    <div id="namessingle" class="body"></div>
+
+    <br />
+
+    <h2>Double Name Generator</h2>
+    <h3>For gamertag</h3>
+
+    <button class="button" Onclick="newName()">Generate!</button>
+
+    <div id="names" class="body"></div>
+    <div id="second" class="body"></div>
+
+    <hr>
+<br>
+
+    <h2>1-20 Number Generator</h2>
+    <h3>For games and other purposes</h3>
+
+    <button class="button" Onclick="randomNumber()">Generate!</button>
+
+    <div id = "number" class = "body"></div>
+
+    <br>
+
+    <h2>1-6 Number Generator</h2>
+    <h3>For games and other purposes</h3>
+
+    <button class="button" Onclick="RANDOMNUM()">Generate!</button>
+
+    <div id = "rannum" class = "body"></div>
+
+    <script src="namegenerator.js"></script>
+    <script src="namegeneratorsingle.js"></script>
+    <script src="randomnumber.js"></script>
+    <script src="randomnum.js"></script>
+
+    <footer></footer>
+  </body>
+</html>
